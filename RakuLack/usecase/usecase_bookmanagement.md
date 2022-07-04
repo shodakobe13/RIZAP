@@ -99,4 +99,4 @@
 
 ### 本の情報登録フォーム
 
-<img src="img/bookregistrationform.pdf">
+<img src="img/bookregistrationform.png">
