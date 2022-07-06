@@ -1,6 +1,10 @@
 <mxfile host="65bd71144e">
     <diagram id="inBH0oujlSCSYGyT9Axf" name="ページ1">
+<<<<<<< HEAD
         <mxGraphModel dx="510" dy="471" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+=======
+        <mxGraphModel dx="1074" dy="790" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
+>>>>>>> 3460886eb6685f3aafc6fbfdeb960c2ba98875c3
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -31,7 +35,11 @@
                         <mxPoint x="230" y="250" as="targetPoint"/>
                     </mxGeometry>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="12" value="新しいユーザを作成&lt;br&gt;ボタンを押す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+=======
+                <mxCell id="12" value="新しいユーザを作成&lt;br&gt;ボタンを押す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+>>>>>>> 3460886eb6685f3aafc6fbfdeb960c2ba98875c3
                     <mxGeometry x="40" y="180" width="120" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="22" style="edgeStyle=none;html=1;" parent="1" edge="1">
@@ -49,7 +57,11 @@
                 <mxCell id="15" value="アカウント&lt;br&gt;登録画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="170" y="290" width="100" height="80" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="19" value="新しいユーザIDを入力し，&lt;br&gt;登録ボタンを押す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+=======
+                <mxCell id="19" value="新しいユーザIDを入力し，&lt;br&gt;登録ボタンを押す" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+>>>>>>> 3460886eb6685f3aafc6fbfdeb960c2ba98875c3
                     <mxGeometry x="20" y="320" width="160" height="30" as="geometry"/>
                 </mxCell>
                 <mxCell id="26" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="21" target="3" edge="1">
@@ -70,8 +82,13 @@
                 <mxCell id="23" value="アカウント登録画面を表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="450" y="150" width="70" height="80" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="27" value="ユーザIDで検索" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
                     <mxGeometry x="660" y="320" width="100" height="20" as="geometry"/>
+=======
+                <mxCell id="27" value="ユーザIDで検索" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+                    <mxGeometry x="640" y="370" width="100" height="20" as="geometry"/>
+>>>>>>> 3460886eb6685f3aafc6fbfdeb960c2ba98875c3
                 </mxCell>
                 <mxCell id="30" style="edgeStyle=none;html=1;entryX=0.69;entryY=0.975;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" parent="1" source="28" target="15" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
@@ -79,7 +96,11 @@
                 <mxCell id="28" value="登録済み&lt;br&gt;エラー" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="274" y="420" width="70" height="80" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="31" value="登録済み" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+=======
+                <mxCell id="31" value="登録済み" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+>>>>>>> 3460886eb6685f3aafc6fbfdeb960c2ba98875c3
                     <mxGeometry x="414" y="440" width="60" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="34" style="edgeStyle=none;html=1;entryX=0.075;entryY=0.775;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="32" target="3" edge="1">
@@ -91,7 +112,11 @@
                 <mxCell id="32" value="新しいユーザをDBに&lt;br&gt;登録する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="490" y="450" width="70" height="80" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="35" value="ユーザを登録" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+=======
+                <mxCell id="35" value="ユーザを登録" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+>>>>>>> 3460886eb6685f3aafc6fbfdeb960c2ba98875c3
                     <mxGeometry x="630" y="475" width="90" height="20" as="geometry"/>
                 </mxCell>
                 <mxCell id="37" value="ログイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
@@ -118,7 +143,11 @@
                 <mxCell id="44" value="入力なしエラー" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="340" y="360" width="70" height="80" as="geometry"/>
                 </mxCell>
+<<<<<<< HEAD
                 <mxCell id="47" value="入力なし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+=======
+                <mxCell id="47" value="入力なし" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;" vertex="1" parent="1">
+>>>>>>> 3460886eb6685f3aafc6fbfdeb960c2ba98875c3
                     <mxGeometry x="420" y="370" width="60" height="20" as="geometry"/>
                 </mxCell>
             </root>
