@@ -10,5 +10,4 @@
 3. [本を管理する](https://github.com/shodakobe13/RIZAP/blob/usecase-1/RakuLack/usecase/usecase_bookmanagement.md)
 4. [本棚を管理する](https://github.com/shodakobe13/RIZAP/blob/usecase-1/RakuLack/usecase/usecase_bookshell.md)
 5. [レイアウトを決定する](https://github.com/shodakobe13/RIZAP/blob/usecase-1/RakuLack/usecase/usecase_makinglayout.md)
-6. [レイアウトを保存する](https://github.com/shodakobe13/RIZAP/blob/usecase-1/RakuLack/usecase/usecase_savelayout.md)
-7. [ユーザーを管理する](https://github.com/shodakobe13/RIZAP/blob/usecase-1/RakuLack/usecase/usecase_manageuser.md)
+6. [レイアウトを閲覧する](https://github.com/shodakobe13/RIZAP/blob/usecase-1/RakuLack/usecase/usecase_savelayout.md)
