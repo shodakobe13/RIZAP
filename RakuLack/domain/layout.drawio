@@ -1,6 +1,6 @@
-<mxfile host="65bd71144e" modified="2022-07-06T06:24:38.839Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.68.1 Chrome/98.0.4758.141 Electron/17.4.7 Safari/537.36" etag="_nR_FCTSeuXkZyKkk5wL" version="20.0.4" type="embed">
+<mxfile host="65bd71144e" modified="2022-07-07T08:46:40.666Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Code/1.68.1 Chrome/98.0.4758.141 Electron/17.4.7 Safari/537.36" etag="aAgEG9e2l5Bcf5G4Ch55" version="20.0.4" type="embed">
     <diagram id="2BZwo8yJzAwSgIiJXTIK" name="ページ1">
-        <mxGraphModel dx="680" dy="465" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+        <mxGraphModel dx="1590" dy="1167" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
             <root>
                 <mxCell id="0"/>
                 <mxCell id="1" parent="0"/>
@@ -43,16 +43,16 @@
                 <mxCell id="10" style="edgeStyle=none;html=1;entryX=1.029;entryY=0.481;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="7" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="7" value="本棚台帳" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="7" value="本棚台帳" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
                     <mxGeometry x="720" y="252.5" width="60" height="57.5" as="geometry"/>
                 </mxCell>
                 <mxCell id="11" style="edgeStyle=none;html=1;entryX=1.029;entryY=0.638;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=none;endFill=0;" parent="1" source="8" target="6" edge="1">
                     <mxGeometry relative="1" as="geometry"/>
                 </mxCell>
-                <mxCell id="8" value="シリーズ台帳" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="8" value="シリーズ台帳" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
                     <mxGeometry x="720" y="340" width="60" height="57.5" as="geometry"/>
                 </mxCell>
-                <mxCell id="12" value="本" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="12" value="本台帳" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
                     <mxGeometry x="725" y="420" width="50" height="50" as="geometry"/>
                 </mxCell>
                 <mxCell id="18" style="edgeStyle=none;html=1;entryX=1.013;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;endArrow=classic;endFill=1;" parent="1" source="15" target="17" edge="1">
@@ -146,7 +146,7 @@
                 <mxCell id="46" value="レイアウトを保存しない" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="350" y="870" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="47" value="レイアウト台帳" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="47" value="レイアウト台帳" style="ellipse;shape=umlEntity;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" parent="1" vertex="1">
                     <mxGeometry x="600" y="820" width="80" height="80" as="geometry"/>
                 </mxCell>
                 <mxCell id="56" style="edgeStyle=none;html=1;endArrow=classic;endFill=1;" parent="1" source="52" edge="1">
@@ -157,7 +157,7 @@
                 <mxCell id="52" value="メイン画面を表示する" style="ellipse;shape=umlControl;whiteSpace=wrap;html=1;" parent="1" vertex="1">
                     <mxGeometry x="470" y="970" width="70" height="80" as="geometry"/>
                 </mxCell>
-                <mxCell id="55" value="メイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+                <mxCell id="55" value="メイン画面" style="shape=umlBoundary;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" parent="1" vertex="1">
                     <mxGeometry x="280" y="1000" width="80" height="60" as="geometry"/>
                 </mxCell>
             </root>
