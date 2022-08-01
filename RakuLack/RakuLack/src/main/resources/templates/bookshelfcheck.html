@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登録確認</title>
+</head>
+<body>
+    <h1>登録確認</h1>
+    <p>
+        以下の情報で本棚を登録します．よろしければ登録を押してください．
+    </p>
+    <form role="form" th:action="@{/__${uid}__/bookshefl/register}" th:object="${BookshelfForm}" method="post">
+        <p>
+            <label>本棚の名前: </label>
+            [[*{name}]]
+        </p>
+        <p>
+            <label>段数: </label>
+            [[*{nStage}]]
+        </p>
+        <p>
+            <label>格段の高さ: </label>
+            [[*{height}]]
+        </p>
+        <p>
+            <label>横幅: </label>
+            [[*{length}]]
+        </p>
+        <p>
+            <label>奥行き: </label>
+            [[*{width}]]
+        </p>
+        <p>
+            <input type="button" value="戻る" onclick="history.back()" />
+            <input type="submit" value="登録する" />
+        </p>
+        <input type="hidden" th:field="*{name}" />
+        <input type="hidden" th:field="*{nStage}" />
+        <input type="hidden" th:field="*{height}" />
+        <input type="hidden" th:field="*{length}" />
+        <input type="hidden" th:field="*{width}" />
+    </form>
+</body>
+</html>
