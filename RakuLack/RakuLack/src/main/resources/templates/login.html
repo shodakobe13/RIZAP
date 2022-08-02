@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+<script type="text/javascript">
+    function loginconfirm() {
+        if (document.getElementById('name').value == "") {
+            alert('ユーザー名を入れてください');
+        } else {
+            window.location = "RakuLackmenu.html";
+        }
+    }
+</script>
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="template.css">
+<title>ログイン</title>
+</head>
+<body>
+    <div class="container">
+        <h1>ログイン</h1>
+        <hr>
+        <!--/* ログインエラー時にメッセージを表示 */-->
+            <table>
+            <form method="post" th:action="@{/main}">
+            <tr class="form-group">
+                <th style="color:blue">ユーザーID</th>
+                <td><input type="text" name="userid"></td>
+            </tr>
+            </table>
+            <div>
+                <input type="submit" class="btn btn--orange" value="ログイン" />
+            </div>
+            </form>
+    </div>
+</body>
+<footer>
+    <p>(c)copy right since 1998</p>
+</footer>
+</html>
