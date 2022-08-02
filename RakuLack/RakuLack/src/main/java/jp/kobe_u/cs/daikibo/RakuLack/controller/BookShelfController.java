@@ -39,8 +39,9 @@ public class BookShelfController {
 
     @PostMapping("/{uid}/bookshelf/register")
     String registerBookshelf(@PathVariable String uid, @ModelAttribute(name="BookshelfForm") BookshelfForm form, Model model){
-        Bookshelf bs = bsService.createBookshelf(uid, form);
-        model.addAttribute("BookshelfForm", bs);
+        System.out.println(form);
+        bsService.createBookshelf(uid, form);
+        model.addAttribute("BookshelfForm", form);
         return "bookshelfregistered";
     }
 

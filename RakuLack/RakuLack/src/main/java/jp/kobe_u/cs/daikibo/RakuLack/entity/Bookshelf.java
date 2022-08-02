@@ -1,6 +1,8 @@
 package jp.kobe_u.cs.daikibo.RakuLack.entity;
 
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
 import javax.persistence.Id;
 
 import lombok.AllArgsConstructor;
@@ -13,6 +15,7 @@ import lombok.NoArgsConstructor;
 @Entity
 public class Bookshelf {
     @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     Long bsid; //本棚のID
     String uid; //所持するユーザID
     String name; //本棚の名前

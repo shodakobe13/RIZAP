@@ -11,7 +11,7 @@
     <p>
         以下の情報で本棚を登録します．よろしければ登録を押してください．
     </p>
-    <form role="form" th:action="@{/__${uid}__/bookshefl/register}" th:object="${BookshelfForm}" method="post">
+    <form role="form" th:action="@{/__${uid}__/bookshelf/register}" th:object="${BookshelfForm}" method="post">
         <p>
             <label>本棚の名前: </label>
             [[*{name}]]

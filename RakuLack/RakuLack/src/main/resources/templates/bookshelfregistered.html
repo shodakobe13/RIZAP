@@ -12,7 +12,7 @@
         本棚の登録が完了しました．
     </p>
 
-    <div th:object="${MemberForm}">
+    <div th:object="${BookshelfForm}">
         <p>
             <label>名前: </label>
             [[*{name}]]
@@ -35,7 +35,7 @@
         </p>
         <p>
             <a th:href=@{/__${uid}__/bookshelf}>本棚の管理に戻る</a><br />
-            <a th:href=@{/memu}>メニューに戻る</a><br />
+            
         </p>
     </div>
 </body>
