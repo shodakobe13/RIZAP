@@ -7,8 +7,9 @@
     <title>本管理画面</title>
 </head>
 <body>
+    <a th:href="@{/{uid}/menu}">メニュー画面に戻る</a>
     <h1>本確認画面</h1>
-    <a th:href="@{/book/{uid}/create(uid=${uid})}">本を登録する</a>
+    <a th:href="@{/{uid}/book/create(uid=${uid})}">本を登録する</a>
     <h2>[[__${uid}__]]さんの本一覧</h2>
     <table>
         <tr>

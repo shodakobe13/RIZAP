@@ -8,7 +8,7 @@
 </head>
 <body>
     <h1>[[__${uid}__]]さんの本登録画面</h1>
-    <form th:action="@{/book/{uid}/register(uid=${uid})}" method="post" th:object="${BookForm}">
+    <form th:action="@{/{uid}/book/register(uid=${uid})}" method="post" th:object="${BookForm}">
         <table>
             <tr>
                 <td><label>本のタイトル：</label></td>

@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 
 import jp.kobe_u.cs.daikibo.RakuLack.dto.BookForm;
@@ -17,7 +16,6 @@ import jp.kobe_u.cs.daikibo.RakuLack.entity.Book;
 import jp.kobe_u.cs.daikibo.RakuLack.service.BookService;
 
 @Controller
-@RequestMapping("/book")
 public class BookController {
     @Autowired
     BookService bookService;
@@ -28,7 +26,7 @@ public class BookController {
      * @param model
      * @return
      */
-    @GetMapping("/{uid}")
+    @GetMapping("/{uid}/book")
     public String showBookList(@PathVariable String uid, Model model) {
         List<Book> books = bookService.getBookList(uid);
         model.addAttribute("Books", books);
@@ -42,7 +40,7 @@ public class BookController {
      * @param model
      * @return
      */
-    @GetMapping("/{uid}/create")
+    @GetMapping("/{uid}/book/create")
     public String showScreenForCreateBook(@PathVariable String uid, Model model) {
         BookForm form = new BookForm();
         model.addAttribute("BookForm", form);
@@ -57,7 +55,7 @@ public class BookController {
      * @param model
      * @return
      */
-    @PostMapping("/{uid}/register")
+    @PostMapping("/{uid}/book/register")
     public String confirmRegisteredBook(@ModelAttribute(name = "BookForm") BookForm form, @PathVariable String uid, Model model) {
         Book book = bookService.createBook(uid, form);
         model.addAttribute("book", book);
