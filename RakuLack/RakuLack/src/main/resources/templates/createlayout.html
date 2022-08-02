@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>レイアウトの作成</title>
+</head>
+
+<body>
+    <h1>レイアウトの作成</h1>
+    <form role="form" th:action="@{/{uid}/layout/create}" th:object="${layout}" method="post">
+        <table>
+          <lable th:each="bookshelf:${bookshelfList}" th:object="${lBookShelfForm}">
+            
+          </lable>
+            <tr>
+                <td><label for="tid">ID： </label></td>
+                <td><input class="large" type="text" disabled th:field="*{tid}" /></td>
+            </tr>
+            <tr>
+                <td><label for="title">タイトル： </label></td>
+                <td>
+                    <input class="large" type="text" size="40" required th:field="*{title}" />
+                    <span th:if="${#fields.hasErrors('title')}" th:errors="*{title}" style="color: red"></span>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="description">詳細説明： </label></td>
+                <td>
+                    <textarea class="large" cols="40" rows="4" th:field="*{description}" />
+                    <span th:if="${#fields.hasErrors('description')}" th:errors="*{description}" style="color: red"></span>
+                </td>
+
+            </tr>
+            <tr>
+                <td><label for="createdAt">作成日時： </label></td>
+                <td><input class="large" type="text" disabled th:field="*{createdAt}" /></td>
+            </tr>
+            <tr>
+                <td><label for="updatedAt">更新日時： </label></td>
+                <td><input class="large" type="text" disabled th:field="*{updatedAt}" /></td>
+            </tr>
+            <tr>
+                <td><label for="doneAt">完了日時： </label></td>
+                <td><input class="large" type="text" disabled th:field="*{doneAt}" /></td>
+            </tr>
+
+            <tr>
+                <td colspan="2">
+                    <input type="button" class="large" onclick="history.back()" value="戻る" />
+                    <th:block th:if="${userId} == *{uid}">
+                        <input type="submit" class="large" value="更新する" />
+                    </th:block>
+                </td>
+            </tr>
+        </table>
+    </form>
+
+</body>
+
+</html>
