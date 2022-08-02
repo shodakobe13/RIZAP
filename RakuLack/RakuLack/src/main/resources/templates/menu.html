@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ja" xmlns:th="http://www.thymeleaf.org">
+
+<head>
+  <link rel="stylesheet" href="template.css">
+  <meta charset="UTF-8">
+  <title>Title</title>
+</head>
+
+<body>
+  <h1>[[${uid}]]さんのメインメニュー</h1>
+  <div>
+    <a th:href="@{/__${uid}__/book}" class="btn btn--orange">本管理</a>
+  </div>
+  <div>
+    <a th:href="@{/__${uid}__/bookshelf}" class="btn btn--orange">本棚の管理</a>
+  </div>
+  <div>
+    <a th:href="@{/__${uid}__/layout/create}" class="btn btn--orange">レイアウトの作成</a>
+  </div>
+  <div>
+    <a th:href="@{/__${uid}__/layout}" class="btn btn--orange">レイアウト一覧</a>
+  </div>
+</body>
+<footer>
+  <p>(c)copy right since 1998</p>
+</footer>
+
+</html>
