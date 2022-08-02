@@ -18,8 +18,6 @@ public class BookshelfService {
     public Bookshelf createBookshelf(String uid, BookshelfForm form){
         Bookshelf bs = form.toEntity();
         bs.setUid(uid);
-        System.out.println(bs);
-        System.out.println(bs.getBsid());
 
         return bsRepo.save(bs);
     }
