@@ -18,20 +18,21 @@
 
 <body>
     <div class="container">
-        <h1>ログイン</h1>
-        <hr>
-        <!--/* ログインエラー時にメッセージを表示 */-->
-        <table>
-            <form method="post" th:action="@{/login}" th:object="${uidform}">
-                <tr class="form-group">
-                    <th style="color:blue">ユーザーID</th>
-                    <td><input type="text" name="uid" required th:field="*{uid}"></td>
-                </tr>
-        </table>
-        <div>
-            <input type="submit" class="btn btn--orange" value="ログイン" />
-        </div>
-        </form>
+        <h1>Rakulack</h1>
+        <h2>ログイン</h1>
+            <hr>
+            <!--/* ログインエラー時にメッセージを表示 */-->
+            <table>
+                <form method="post" th:action="@{/login}" th:object="${uidform}">
+                    <tr class="form-group">
+                        <th style="color:blue">ユーザーID</th>
+                        <td><input type="text" name="uid" required th:field="*{uid}"></td>
+                    </tr>
+            </table>
+            <div>
+                <input type="submit" class="btn btn--orange" value="ログイン" />
+            </div>
+            </form>
     </div>
 </body>
 <footer>
