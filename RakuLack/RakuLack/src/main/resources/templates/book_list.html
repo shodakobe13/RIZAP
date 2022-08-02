@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>本管理画面</title>
 </head>
+
 <body>
-    <a th:href="@{/{uid}/menu}">メニュー画面に戻る</a>
+    <a th:href="@{/{uid}/menu(uid=${uid})}">メニュー画面に戻る</a>
     <h1>本確認画面</h1>
     <a th:href="@{/{uid}/book/create(uid=${uid})}">本を登録する</a>
     <h2>[[__${uid}__]]さんの本一覧</h2>
@@ -24,4 +26,5 @@
         </tr>
     </table>
 </body>
+
 </html>
