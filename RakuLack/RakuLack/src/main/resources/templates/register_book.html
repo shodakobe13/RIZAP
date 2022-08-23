@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>本登録画面</title>
+</head>
+<body>
+    <h1>[[__${uid}__]]さんの本登録画面</h1>
+    <form th:action="@{/{uid}/book/register(uid=${uid})}" method="post" th:object="${BookForm}">
+        <table>
+            <tr>
+                <td><label>本のタイトル：</label></td>
+                <td><input type="text" name="title" required th:field="*{title}" /></td>
+            </tr>
+            <tr>
+                <td><label>本の幅：</label></td>
+                <td><input type="text" name="width" required th:field="*{width}" /></td>
+            </tr>
+            <tr>
+                <td><label>本の高さ：</label></td>
+                <td><input type="text" name="height" required th:field="*{height}" /></td>
+            </tr>
+            <tr>
+                <td><label>本の長さ：</label></td>
+                <td><input type="text" name="length" required th:field="*{length}" /></td>
+            </tr>
+        </table>
+        <p><input type="submit" value="登録する" /></p>
+    </form>
+    <p>
+        <a th:href="@{/{uid}/book(uid=${uid})}">リストに戻る</a>
+    </p>
+</body>
+</html>
